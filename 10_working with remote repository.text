@@ -1,0 +1,19 @@
+1. github pr jake new repository pr click krne pr vh nyi repository bna dega
+2. bnnne ke baad apne paas 3 option ki window aa jati hai
+    i. …or create a new repository on the command line
+    ii. …or push an existing repository from the command line
+    iii. …or import code from another repository
+3. We go with option 2 as leptop main phle se bna hua git hai, mtlb foldr main git init, git commit vgrh sab kiya hua hai.
+
+-> git remote -v
+origin	https://github.com/ravikant1510/Git.git (fetch)
+origin	https://github.com/ravikant1510/Git.git (push)
+
+yh command clane pr aa jata hai fetch and push ka 
+
+4.  fir uske andar ki jo commands hai vo chlane pr push ke liye password manga and nhi mangta to SSH key generate krni pdti, and yh importent bhi hai, nhi to hr koi us repository main koisa bhi folder upload kr dega
+
+ab tumhari git repository bn ke teyar baithi hai, ab koi file main edit kro, ya koi nyi file bnao to phle usko stage kr do git add se,
+fir git commit -m "" se commit kr do,
+fir agar github pr push krna hai to 
+git push -u origin master
