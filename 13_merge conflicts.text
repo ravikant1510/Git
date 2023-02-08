@@ -19,3 +19,14 @@ jrur aayega
 -> git branch --merged 
     already merged branches
 
+-> git branch --no-merged
+    branches not merged now
+
+-> git branch -d develop 
+    develop naam ki branch ko delete kr do
+    pr yh error dega(only in case of branches which are not merged) as sefty type ki khi hum galti se koi kaam ki chiz na delete kr de
+    pr -d ko -D likne pr delete kr dega
+
+
+
+
