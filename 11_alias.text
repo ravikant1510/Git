@@ -1,0 +1,13 @@
+ek trh se abbrivation de rhe 
+-> git config --global alias.st status
+
+ab status ki jgh hum st likh skte hai
+-> git st
+
+-> git config --global alias.unstage 'restore --staged--'
+ab unstage likna mtlb ke 'restore --staged--' likna ho gya
+
+
+-> git checkout -b develop 
+mtlb develop naam ki branch bna lo
+
