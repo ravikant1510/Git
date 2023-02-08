@@ -1,0 +1,21 @@
+C0 <- c1 <- c2 <- c6
+            ^
+            |
+            C4 <- C5
+
+ab c2 main title kuch alg de rkha tha, c6 main alg and C5 main alg.
+and all of these are versions of different html files.
+
+to merge krtna hai C5 ko c6 main, to jo chije main sirf add kri hai and change kri hai vo to 
+jake merge ho jayegi but jo chize c6 vale ne bhi change kri and maine bhi change kri unme merge conflict
+jrur aayega
+
+
+<<< conflict resolution marker
+
+-> git branch -v
+    hr branch ka last commit and uska hash vgrh sab mil jayega
+
+-> git branch --merged 
+    already merged branches
+
