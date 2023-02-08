@@ -8,6 +8,4 @@ ab status ki jgh hum st likh skte hai
 ab unstage likna mtlb ke 'restore --staged--' likna ho gya
 
 
--> git checkout -b develop 
-mtlb develop naam ki branch bna lo
 
