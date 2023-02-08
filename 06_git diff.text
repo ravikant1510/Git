@@ -1,0 +1,14 @@
+Jaise phle discuss kiya tha ki file 01.html hai and 02.html hai in dono ko git add . krke 
+staging area main bhej diya hai, 
+
+now let say ki 02 file ko edit kr diya to ab 02 staging area main bhi hai (jo ki iska purana version hai) and
+modified area main bhi hai. 
+
+-> git diff
+ab yh krne se yh 02.html ke purane version main and nye version main kya changes hue hai vo bta dengi
+to bsically yh working directory and staging area ko compare krta hai
+
+
+
+now to compare privious commit with staging area
+->  git diff --staged

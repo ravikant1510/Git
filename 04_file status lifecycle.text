@@ -1,0 +1,22 @@
+file ke 4 stages hai
+1. untracked 
+    iska mtlb hai ki file ka abhi track nhi hua hai, like abhi folder ko git repository
+    bnaya hai pr files add nhi kri hai
+
+    git add . -> krke unko next stage main bhej dete hai
+
+2. Unmodified
+    this is tracked but not modified
+    now when we edit the file it goes to new stage
+3. modified
+    now again we do git add filename
+    to stage the changes
+
+4. Staged
+    ab yha se commit marne pe again second stage pr chali jayegi that is Unmodified
+
+
+ek importent baat yh hai ki jaise 2 files ko git add krke staging area main dal diya to vo commit 
+ke liye ready hai.
+but agar hum ek file ko edit kr dete hai and usko again git add filename krke add nhi krte or 
+sidha commit kr dete hai to uska purana version commit ho jayega

@@ -1,0 +1,6 @@
+-> git commit -a -m "Direct Commit"
+    yh sari tracked files ko commit maar dega, yh untracked files ko commit nhi 
+    maar pata hai (untracked file mtlb jo file humne abhi bnai hai and usko abhi ek
+    bhi baar git add aise nhi kiya hai)
+
+ 

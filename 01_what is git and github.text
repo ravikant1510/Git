@@ -1,0 +1,104 @@
+What is git?
+-> git ek version control system hai. files ka track rkhne main kaam aata hai
+   Banefits:
+   * easily file recovery
+   * who introduce an issue and when
+   * roll back to previous working state
+
+History of VCS(version control system):
+ -> local VCS(Database to keep track of files, but vo sare change computer main hi rhte the)
+    * Pros -> can keep track of files and rollback
+    * cons -> if hardisk is lost, everything is lost
+
+ -> Centerlized VCS
+    * central server se data fatch kr lo and vhi pr again push kr do
+    * dikkat yhi hai ki server hi demage ho gya to putrane versions nhi mil payenge
+
+ -> Distibuted VCS
+    * sare users ko complet backup and history deta hai, 
+    * and nye version ko bhi efficiently store krta hai taki space jyana bde
+    * sabke pass complete backup hota hai
+
+
+
+Github:
+    Github is a hosting service,  
+    Github ke jaise hi other hosting services are : BITbucket , gitlab
+
+Git :
+    * it captures the snapshot, not the difference
+    * .git folder main purne versions ki history rhti hai
+    * almost every operation is local
+    * git has integrity(cheksum vgrh se yh hackers se bchata hai)
+    * Git generally only add data
+
+
+commands:
+-> git init 
+        initialize the repository with git
+-> git status
+        gives the status of git repository
+
+-> git add first.txt
+     sirf ek hi file ko staging area main bejne ke liye hota hai
+-> git add .
+        addes all the files in staging area 
+        
+-> git remote add origin (paste the git url without braces)
+
+-> git commit -m "msg"
+    msg ke saath commit kr do
+
+-> pwd
+    present working directory
+-> ls
+    showes all the files in the folder
+-> ls -a
+    show all the hidden files (files starting with . are hidden in linex and mack)
+
+-> git config user.name
+-> git config user.email
+
+
+-> git log
+    sare commits ki summary and history type aa jayegi 
+
+-> rm -rf .git 
+    yh pure track ko delete kr dega, yani .git folder ko hta dega.
+
+-> q
+    for quiting
+
+-> git log -p
+    yh git log with changes ditail, ki kab kab commit hue and unme kya kya updates the 
+
+-> git log -p -3
+    yh last 3 pichle vale commits bta denge with difference
+
+-> git log --stat
+    yh short main bta dega ki kya hua tha iss commit main 
+
+-> git log --pretty = oneline
+    yh one line main short summary de dega
+
+-> git log --pretty = short
+    yh short main bta dega kya hua hai
+
+-> git log --pretty = full
+
+-> git log --since = 2.days
+    pichle do din se jo bhi hua vo sare ka logs bta do,
+    2.months, kuch bhi likh skta hun 
+
+-> git log --pretty = format:"%h -- %an"
+    hash and author name ke hisab se log kr do. aur bhi options hai jo chahiye uske according print kene ke
+     yh sab git-scm.com pr mil jayega vha pr pretty format pr mil jayega, ae likta to author ka 
+     email aa jata 
+
+
+ab main chata hun ke purane kisi commit main jake change kru, to command is:
+-> git commit --amend 
+    fir stage kr do and commit kr do
+
+
+

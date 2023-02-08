@@ -1,0 +1,100 @@
+let say I have file second.txt and I go to folder and rename it manually as third.txt
+then my git see it as
+-> I deleted second.txt and create an untracked file named third.txt
+
+pr ab jab hum third.txt ko staging area main leke aate hai 
+-> git add .
+
+to git ko apne aap pta chal jata hai ki this is actually renaming of file
+fir usko commit krna hoga
+
+
+When we want to delete a file:
+case 1:
+    agar manually folder main jake delete krte hai to fir hume 
+    stage krna pdeta hai and fir commit krna hota hai
+
+case 2:
+    delting with rm 
+    -> git rm third.txt
+    yh third.txt ko delete kr degi and saath hi staging area main bhi bej degi
+    to hume bs ek commit marna hoga
+
+
+Now command for renaming the file:
+-> git mv first.txt first_rename.txt
+yh name chang ke ke staging area main daal dega, fir hume sirf commit krna hoga
+
+
+Ab ek importent chiz yh hai ke koi file ko main phle se track kr rha tha and fir usko 
+.gitignore main daal diya fir bhi vh track hoti rhegi untill ki hum
+-> git rm --cached first.txt
+yh command nhi run kr de, iss command ke baad us file ko track krna bnd kr dega
+yh run krne pr direct staging area main cla jayega and fir commit kr denge.
+
+staging area vala kh to rha hai ki file deleted but actually file delete nhi hoti, bs usko track
+krna bnd kr denge
+
+
+
+
+parsing -> render tree -> layout (parent ko child overrite kr skta hai) -> painting
+
+DOM + CSSOM = render tree
+
+dom content loaded is after the painting
+
+
+
+The Secure Shell protocol(SSH) is used to create secure connections between your device and Bitbucket Cloud.
+The Secure Shell protocol (SSH) is used to create secure connections between your device and Bitbucket Cloud. The connection is authenticated using public SSH keys, which are derived from a private SSH key (also known as a private/public key pair). The secure (encrypted) connection is used to securely transmit your source code between your local device and Bitbucket Cloud. To set up your device for connecting Bitbucket Cloud using SSH, you need to:
+
+passphrase -> ravi
+rvaishnav@MBP-Q4YYYWK4KJ ~ % ssh-keygen -t ed25519 -b 4096 -C "{rvaishnav@tekion.com}" -f {bitbucket_key}
+
+Generating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in {bitbucket_key}
+Your public key has been saved in {bitbucket_key}.pub
+The key fingerprint is:
+SHA256:PWtCfhItnqTFgUiFZnIh3X7H20y66GfJl/IdF5GovCo {rvaishnav@tekion.com}
+The key's randomart image is:
++--[ED25519 256]--+
+|  ..o=.          |
+|  .o*...      . .|
+|   =... ..   . o |
+|      ...++ o   .|
+|       .S.+O   . |
+|       B +oo+   .|
+|      . *o++ .. .|
+|       E.=O o. o |
+|       .o+ +. .  |
++----[SHA256]-----+
+rvaishnav@MBP-Q4YYYWK4KJ ~ % ssh-add ~/{bitbucket_key}
+
+Enter passphrase for /Users/rvaishnav/{bitbucket_key}: 
+Identity added: /Users/rvaishnav/{bitbucket_key} ({rvaishnav@tekion.com})
+
+
+Your identification has been saved in bitbucket_work
+Your public key has been saved in bitbucket_work.pub
+The key fingerprint is:
+SHA256:AXTRKKqC8wQ85KxvUGRdVZBFDSfgqF+o3XcYtumchqg rvaishnav@tekion.com
+The key's randomart image is:
++--[ED25519 256]--+
+|   . o+.*@*o.    |
+| .o . .=o .o.    |
+|=o   ...o        |
+|.=. .. . .       |
+|oo... . S o      |
+|* o  + o . =     |
+| B  . o...= .    |
+|  +   . .+.o     |
+| .  E.   .+      |
++----[SHA256]-----+
+
+
+passcod -> ravi
+
+

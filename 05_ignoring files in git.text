@@ -1,0 +1,25 @@
+firstly create file .gitignore 
+can create by the command
+-> touch .gitignore
+-> ek error.log file bna li
+
+gitignore ke andar jis bhi file ka naam likhoge vh ignore ho jayegi, ab unme kitna bhi change kro 
+koi frk nhi pdega
+
+ab agar humare project ke andar bhut sari .log files hai and we want ki vo sati ignore ho jaye 
+to hum .gitignore main
+*.log -> aisa likh denge
+
+ab maan lo modeules_not_required yh folder ignore krna hai to, .gitignore main folder_name/ aise likh do
+in this case, we will write -> modeules_not_required/
+
+
+By default git empty folder ko ignore krta hai.
+
+abhi jaise upar likha hai ki folder_name/ -> aise likne pr git sare forlders jo same name ke hai 
+unko ignore kr dega
+
+if we want ki git sirf bahr jo folder hai folder_name ka bs vhi ignore ho to usko
+/folder_name/  -> aise likte hai
+
+static/dir -> static folder ke andar jo dir hai usko ignore kr do

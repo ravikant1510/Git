@@ -1,0 +1,11 @@
+to unstage file named index.html which is in staging area
+-> git restore --staged index.html
+
+ab maine file se kuch importent information edit kr di hai and 
+I want the last commited version of this file then:
+
+-> git checkout -- index.html
+
+-> git checkout -f
+    sari files ko purane commit pr bhej degi
+ 

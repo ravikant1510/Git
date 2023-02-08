@@ -1,0 +1,10 @@
+1. working directory
+    computer/leptop ko kolne pr jha kaam ho rha hai
+
+2. staging area
+     vo files jo hum chahte hai ki agle commit main jaye,
+     jaise 3 files main se 2 pr accha kaam ko gya hai to hum unhe staging area main bej 
+     denge 
+
+3. git directory(repository)
+     staging area valo ko commit krne pr  
